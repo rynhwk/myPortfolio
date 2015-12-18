@@ -1,0 +1,74 @@
+body {
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+header img {
+    margin-top: 15px;
+    float: left;
+    max-width: 100px;
+}
+
+header h1, header h3 {
+    color: #747704;
+    float: right;
+    display: block;
+    margin-bottom: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: 300;
+}
+
+header h3 {
+    clear: right;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #bcbbbb;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    margin-top: 25px;
+    width: 90%;
+}
+
+.row {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+
+.row h2 {
+    text-align: left;
+}
+
+.jumbotron {
+    background-image: url(http://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: none;
+}
+
+footer p {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 391px) {
+  header img {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+
